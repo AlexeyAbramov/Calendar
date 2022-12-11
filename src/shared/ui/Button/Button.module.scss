@@ -1,0 +1,22 @@
+.button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+
+  &.typeTransparent {
+    background-color: transparent;
+  }
+
+  &.typePrimary {
+    background-color: red;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

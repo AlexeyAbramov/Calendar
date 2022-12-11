@@ -1,0 +1,9 @@
+.slider {
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  place-items: center;
+}
+
+.sliderButton:disabled {
+  cursor: not-allowed;
+}
